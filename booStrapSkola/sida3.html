@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="sv" dir="ltr">
+  <head>
+
+    <!-- Uppgift gjord av Robin Flink-->
+
+    <meta charset="utf-8">
+    <title> Test Skola </title>
+    <!-- Style -->
+    <link rel="stylesheet" href="public/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="public/css/bootstrap-grid.css.map">
+    <link rel="stylesheet" href="public/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="public/css/bootstrap-grid.min.css.map">
+    <link rel="stylesheet" href="public/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="public/css/bootstrap-reboot.css.map">
+    <link rel="stylesheet" href="public/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="public/css/bootstrap-reboot.min.css.map">
+    <link rel="stylesheet" href="public/css/bootstrap.css">
+    <link rel="stylesheet" href="public/css/bootstrap.css.map">
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="public/css/design.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js%22%3E"> </script>
+
+    <!-- Tillagd script-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src ="public/js/bootstrap.bundle.js"> </script>
+    <script src ="public/js/bootstrap.bundle.js.map"> </script>
+    <script src ="public/js/bootstrap.bundle.min.js"> </script>
+    <script src ="public/js/bootstrap.bundle.min.js.map"> </script>
+    <script src ="public/js/bootstrap.js"> </script>
+    <script src ="public/js/bootstrap.js.map"> </script>
+    <script src ="public/js/bootstrap.min.js"> </script>
+    <script src ="public/js/bootstrap.min.js.map"> </script>
+
+<!-- SHit aint workgin-->
+
+  </head>
+  <body>
+
+    <!-- med navbar expand lg kommer knappen på höger sida istället för höger som den skulle ha kommit ifall man skrev sm istälet för lg-->
+  <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+    <a class="navbar-brand" href="index.html"> <img src="public/img/sweden-flag.jpg" alt="Logo" style="width:50px;">  </a>
+
+    <!-- De tre raderna nedan skapar funktioen att då sidan visas på en mobil kommer navbaren att minskas till en knapp som användaren kommer behöva
+    klicka på för att få fram alternativen.-->
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Gör så att navbaren blir horizontell och fixar även bakgrunden-->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <!-- Navbar brand klassen gör den delen mera higlithed än de anddra-->
+              <li class="nav-item"> <a class="nav-link" href="index.html"> Hem </a> </li>
+              <li class="nav-item"> <a class="nav-link" href="https://goo.gl/maps/znbybMXfrnt98xRaA"> Vart vi finns! </a> </li>
+              <li class="nav-item"> <a class="nav-link" href="sida2.html"> Personal </a> </li>
+              <li class="nav-item"> <a class="nav-link" href="sida3.html"> Kurser </a> </li>
+          </ul>
+    </div>
+</nav>
+
+<!-- Body -->
+
+<div class="container mt-3">
+  <div class="row justify-content-center">
+    <div class="col md-7 text-center">
+      <h2> Våra kurser </h2>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <hr>
+
+  <div class="row justify-content-center mt-5 mb-5">
+    <div class="col-md-7">
+      <h2> Gymnasiet </h2>
+      <!-- Med lead blir texten annorlunda vilket i sin tur skapar en känsla av inledning-->
+      <p class="lead"> Inom våran skola finns det flera linjer att välja mellan. Elever kan välja mellan teknik, estet, ekonomi, samhälle och mer!<p>
+        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+
+  </div>
+<hr>
+
+</div>
+
+<!-- Allting hamnar som det ska pga att det sitter i ett grid-->
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-7">
+            <h2> Kurser </h2>
+          </div>
+      </div>
+
+    <div class="row justify-content-center">
+      <div class="col-sm-2  "> <p class="text-center lead"> Teknik <p> <p> Informaitons- och mediatekink </p> </div>
+
+      <div class="col-sm-2 "> <p class="text-center lead"> Natur </p> <p> Naturvetenskap och samhälle </p> </div>
+      <div class="col-sm-2 "> <p class=" text-center lead"> IT </p> <p> Dator- och kommunikationstekik </p>  </div>
+    </div>
+
+
+    <div class="row justify-content-center">
+      <div class="col-sm-2  "> <p class="text-center lead"> Ekonomi <p>
+                                                 <p> Ekonomi </p>
+     </div>
+
+      <div class="col-sm-2  "> <p class="text-center lead"> Design </p> <p> Estetik och media </p> </div>
+      <div class="col-sm-2  "> <p class=" text-center lead"> Musik </p> <p> Musik utildning </p>  </div>
+    </div>
+
+    <hr>
+
+</div>
+
+
+
+<!-- Footer-->
+
+<!-- De fem till sex raderna nedan skapar funktioen att då sidan visas på en mobil kommer navbaren att minskas till en knapp som användaren kommer behöva
+klicka på för att få fram alternativen.-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-center">
+  <div class="container text-center">
+    <a class="navbar-brand text-center" href="#"></a>
+    <!-- Genom att lägga till en 2 i id på navbarSupportedContent så öppnades inte båda dropddowns på sidan, alltså i footer och navbar samtidigt.-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+  <!-- Gör så att navbaren blir horizontell och fixar även bakgrunden-->
+  <!-- ml står för margin left och mx-auto används för att centrera object horizontellt-->
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+        <ul class="navbar-nav ml-auto mx-auto">
+            <!-- Navbar brand klassen gör den delen mera higlithed än de anddra-->
+            <li class="nav-item"> <a class="nav-link" href="index.html"> Hem </a> </li>
+            <li class="nav-item"> <a class="nav-link" href="sida2.html"> Personal </a> </li>
+            <li class="nav-item"> <a class="nav-link" href="sida3.html"> Kurser </a> </li>
+        </ul>
+  </div>
+</div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

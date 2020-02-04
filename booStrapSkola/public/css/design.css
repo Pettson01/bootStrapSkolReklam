@@ -1,0 +1,22 @@
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  border: black solid 1px;
+  border-radius: 100px;
+  outline: black;
+  background-size: 20%, 20%;
+  background-color: #343A40;
+
+}
+
+#carousel-name{
+  margin-top: 50px;
+}
+
+hr{
+  margin-left: 45px;
+  margin-right: 45px;
+}
